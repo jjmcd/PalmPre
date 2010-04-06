@@ -5,3 +5,5 @@ application.
 
 * palm.css - stylesheet
 * functions.inc - functions used by multiple applications
+* myToDo.sql - Data definition language for the database
+* categories.sql - jjmcd's categories for example

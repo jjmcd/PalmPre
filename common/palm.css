@@ -1,0 +1,74 @@
+body { background-color: #001108; }
+
+h1, p { margin: 3px 6px; }
+
+#container { width: 700pt; border: solid 1px; font-family: Verdana, Arial, Helvetica, sans-serif; margin: 0px 0px; padding: 0px; background: white; 
+font-size: 18pt; }
+
+#head { margin: 10pt;  background: bisque; color: brown; border: solid 3px; border-color: saddlebrown; }
+
+#head h1 { color: brown; }
+
+#container table
+  {
+    background-color: white;
+  }
+
+#container h1
+  {
+    font-size: 36pt;
+    color: #222222;
+  }
+
+#container td
+  {
+    font-size: 28pt;
+    padding: 10px;
+    //color: red;
+  }
+
+input
+  {
+    font-size: 28pt;
+  }
+
+select
+  {
+    font-size: 28pt;
+  }
+
+#container textarea
+  {
+    font-size: 28pt;
+  }
+
+#id td
+  {
+    font-size: 32pt;
+    padding: 10px;
+    font-wright: bold;
+    //color: red;
+  }
+
+#container th
+  {
+    font-size: 28pt;
+    color: saddlebrown;
+  }
+
+#container a
+  {
+    font-size: 28pt;
+    color: black;
+    font-weight: normal;
+    text-decoration: none;
+  }
+
+#container a:hover 
+  {
+    color: #ff7;
+    text-decoration: underline; 
+    background-color: #800;
+  }
+
+

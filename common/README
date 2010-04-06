@@ -1,0 +1,7 @@
+Common files
+
+This folder contains files that are common to more than one
+application.
+
+* palm.css - stylesheet
+* functions.inc - functions used by multiple applications

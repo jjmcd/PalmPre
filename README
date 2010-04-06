@@ -1,0 +1,9 @@
+Web applications for the Palm Pre
+
+This repository contains PHP applications targeted for the Palm Pre.
+These applications will most likely reside all in a single folder on
+the web server, but they are separated here for simpler
+navigation/Maintenance.
+
+The "common" folder contains files that are used by multiple
+applications (usually all applications).

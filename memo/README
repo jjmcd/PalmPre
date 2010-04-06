@@ -1,0 +1,9 @@
+Memo Pad Application
+
+This app is intended to replicate much of the functionality of the old
+Treo Memopad application.  It allows the user to assign categories and
+view lists of memos by category.
+
+Data is stored in a MySQL database.  At the current time, maintenance
+of the categories and deletion of memos is accomplished theough
+phpMyAdmin.

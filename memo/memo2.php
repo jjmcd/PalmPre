@@ -13,7 +13,7 @@
       $q1 = "UPDATE `memos` SET `title`='" . 
         mysql_real_escape_string($title,$db) . 
         "' WHERE `memo_id`=" . $item;
-      echo "<p>$q2</p>\n";
+      echo "<p>$q1</p>\n";
       $r1=mysql_query($q1,$db);
     }
 

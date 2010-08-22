@@ -52,8 +52,9 @@
       echo "<a href=\"memo.php?category=" . $row2[2] . "\">";
       echo $row2[0] . "</a></td></tr>\n";
     }
+  echo "<tr><td align=\"center\" style=\"background-color:black;\">" .
+    "<a href=\"memo3.php\" style=\"color:yellow;\">New</a></td></tr>\n";
   echo "<tr><td align=\"center\"><a href=\"memo.php\">All</a></td></tr>\n";
-  echo "<tr><td align=\"center\"><a href=\"memo3.php\">New</a></td></tr>\n";
   echo "</table>\n";
   echo "</p>\n";
   closeHTML();

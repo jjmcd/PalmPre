@@ -15,9 +15,15 @@
   echo "<select name=\"category\" type=\"select\">\n";
   while ( $row1 = mysql_fetch_row($r1) )
     {
-      echo "  <option value=\"" . $row1[0] . "\" >";
-      echo $row1[1];
-      echo "</option>\n";
+      echo "  <option value=\"" . $row1[0] . "\" style=\"background-color:" .
+	$row1[2] . ";\"";
+      if ( $row1[0] == "4" )
+	echo " selected=\"selected\"";
+      echo " >" . $row1[1] . "</option>\n";
+
+//      echo "  <option value=\"" . $row1[0] . "\" >";
+//      echo $row1[1];
+//      echo "</option>\n";
     }
   echo "</select>\n";
   echo "<br /><b>Contents:</b><br />\n";
